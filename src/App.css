@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,700&display=swap');
+
+/* Estilos para la lista de libros */
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 100px;
+}
+
+li {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  /* Ajusta este valor según tus preferencias */
+  height: 200px;
+  /* Ajusta este valor según tus preferencias */
+  object-fit: cover;
+  /* Para mantener la proporción de aspecto */
+}
+
+/* Estilos para el formulario de agregar libro */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: rgb(235, 101, 101);
+  color: white;
+  padding: 10px 15px;
+  margin: 2px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #80ec85;
+  color: black;
+}
+
+.formAdd {
+  padding: 0;
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+.btnFormAdd {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 30px;
+}
+
+label {
+  padding-top: 20px;
+  margin: 0 100px;
+}
+
+h1 {
+  margin-top: 20px;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.btnUp{
+  width: 12px;
+  height: 12px;
+}
+
+.btnLarge{
+  margin-top: 30px;
+}
